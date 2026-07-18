@@ -2,22 +2,17 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Skills](https://img.shields.io/badge/skills-37-orange.svg)](skills)
+[![Skills](https://img.shields.io/badge/skills-34-orange.svg)](skills)
 
-A library of **37 Claude Skills**, organized by professional role, for structuring and
+A library of **34 Claude Skills**, organized by professional role, for structuring and
 shipping complete digital products — from backend engineering to business strategy,
 through security, design and marketing.
 
 Each skill packages the mindset, best practices, common pitfalls and typical deliverables
 of a real-world profile (Backend Developer, Pentester, Product Manager, CTO, SEO
 Specialist...) into a `SKILL.md` file that Claude loads automatically when a task matches
-it. The 34 profiles under `dev/`, `security/`, `design-product/`, `business-strategy/`,
-`marketing/` and `data/` are technology- and domain-agnostic by design — the practices
-apply regardless of your stack or the kind of product you're building. Three additional
-profiles under `skills/context-specific/` (payments/mobile money, field logistics,
-market localization) go deeper into more specialized domains — useful on their own if
-you're building in that space, and a pattern to follow if you want to add your own
-vertical-specific pack (healthtech, edtech, real estate...).
+it. Every profile is technology- and domain-agnostic by design — the practices apply
+regardless of your stack or the kind of product you're building.
 
 ## What is a Claude Skill?
 
@@ -50,14 +45,13 @@ skills/
 ├── design-product/           Design & Product (4 profiles)
 ├── business-strategy/        Business & Strategy (6 profiles)
 ├── marketing/                Marketing (4 profiles)
-├── data/                     Data (3 profiles)
-└── context-specific/         Fintech / logistics / localization (3 profiles)
+└── data/                     Data (3 profiles)
 ```
 
 Every `SKILL.md` is generated from `generate.py`, the single source of truth for the
 whole library — see [`CONTRIBUTING.md`](CONTRIBUTING.md) before editing a skill by hand.
 
-## Full list of 37 profiles
+## Full list of 34 profiles
 
 ### 🛠️ Engineering (`skills/dev/`)
 | Profile | Folder |
@@ -117,13 +111,6 @@ whole library — see [`CONTRIBUTING.md`](CONTRIBUTING.md) before editing a skil
 | Data Scientist | `data-scientist` |
 | BI Analyst | `bi-analyst` |
 
-### 🌍 Context-specific (`skills/context-specific/`)
-| Profile | Folder |
-|---|---|
-| Payment / Fintech Integration Specialist | `payment-integration-specialist` |
-| Logistics Operations Specialist | `logistics-operations-specialist` |
-| Localization Specialist | `localization-specialist` |
-
 ## Installation / usage
 
 ### With Claude Code / Claude Desktop (local skills)
@@ -138,7 +125,7 @@ cp -r claude-skills-digital-solutions/skills/dev/backend-developer ~/.claude/ski
 Or use the provided script to install several at once:
 
 ```bash
-./scripts/install.sh              # installs all 37 skills
+./scripts/install.sh              # installs all 34 skills
 ./scripts/install.sh dev security # installs only these categories
 ```
 
@@ -158,12 +145,9 @@ section structure to stay consistent with the rest of the repo. See
 ## Roadmap
 
 - [ ] Add executable scripts/checklists (e.g. a pre-deploy compliance checklist script)
-- [ ] Add detailed `references/` files for the denser profiles (pentester,
-      payment-integration-specialist)
+- [ ] Add detailed `references/` files for the denser profiles (e.g. pentester)
 - [ ] Add trigger evals per skill (does the description actually fire the skill when it
       should?)
-- [ ] Explore additional context-specific profile packs for other verticals (e.g.
-      healthtech, edtech)
 
 ## About the author
 

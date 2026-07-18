@@ -948,85 +948,6 @@ add("bi-analyst", "data", "bi-analyst", "BI Analyst",
      "'Different teams calculate retention differently, help me standardize the definition'"])
 
 # =========================================================================
-# 7. CONTEXT-SPECIFIC (fintech / logistics / localization)
-# =========================================================================
-
-add("payment-integration-specialist", "context-specific", "payment-integration-specialist", "Payment / Fintech Integration Specialist",
-    "Specialized skills for integrating mobile money and local payment methods (common in many emerging markets) alongside cash-on-delivery (COD). Trigger this skill for payment integration, financial webhook handling, transaction reconciliation, or mobile money-specific questions.",
-    "The Payment/Fintech Integration Specialist masters the technical and operational specifics of mobile money and cash-on-delivery payments, guaranteeing reliability, traceability and exact reconciliation of transactions.",
-    ["Integrating a new mobile money provider",
-     "Handling payment confirmation webhooks",
-     "Reconciling cash-on-delivery amounts collected by field agents",
-     "Handling failed payments, refunds, or payment disputes"],
-    ["Strict idempotency on every payment webhook (avoid double-crediting/double-debiting)",
-     "An explicit payment status state machine (pending, confirmed, failed, refunded)",
-     "Daily reconciliation between cash collected in the field and amounts recorded in the system",
-     "Full transaction traceability for audits and dispute handling",
-     "Handling the timing quirks and specifics of each mobile money provider you integrate",
-     "Securing payment provider API keys and secrets (never client-side)"],
-    ["Treating every mobile money provider identically when each has real quirks",
-     "No regular reconciliation between field-collected cash and system records",
-     "No clear refund or dispute-handling process",
-     "Storing sensitive payment identifiers without adequate encryption"],
-    ["Mobile money provider APIs relevant to your market",
-     "A backend service to orchestrate webhook handling",
-     "A database with strict transactional state",
-     "A job queue for reliable asynchronous payment processing"],
-    ["Integrated, tested payment module",
-     "Documented reconciliation process",
-     "Payment dispute-handling procedure"],
-    ["'Integrate a new mobile money provider into the platform'",
-     "'How do I reconcile cash collected by field agents with orders in the database?'",
-     "'A payment webhook is arriving twice, how do I make this idempotent?'"])
-
-add("logistics-operations-specialist", "context-specific", "logistics-operations-specialist", "Logistics Operations Specialist",
-    "Skills for optimizing field logistics operations: delivery routes, coverage zones, and driver/agent performance and returns. Trigger this skill for field operations optimization, delivery zone design, or driver/agent performance management.",
-    "The Logistics Operations Specialist optimizes field operations — routes, zones, driver/agent performance — to reduce delivery cost and time while keeping service quality high.",
-    ["Optimizing delivery routes",
-     "Designing or adjusting geographic coverage zones",
-     "Analyzing and improving driver/agent performance",
-     "Managing return or failed-delivery processes"],
-    ["Delivery zones based on real order density and travel time data",
-     "Route optimization balancing parcel count, distance and customer time windows",
-     "Clear operational KPIs (success rate, average delay, cost per delivery)",
-     "A structured process for failed deliveries (retry, follow-up, return)",
-     "Fair driver/agent incentives and evaluation based on objective metrics"],
-    ["Defining delivery zones arbitrarily with no real density or travel-time data",
-     "No clear process for failed deliveries (parcels stuck with no follow-up)",
-     "Evaluating field agents on metrics that don't reflect real field constraints"],
-    ["Delivery geolocation data",
-     "Route tracking tools",
-     "Logistics performance dashboards"],
-    ["Delivery zone plan",
-     "Failed-delivery handling process",
-     "Driver/agent performance dashboard"],
-    ["'Help me redraw our delivery zones to reduce delays'",
-     "'How should I structure a clear process for failed cash-on-delivery orders?'"])
-
-add("localization-specialist", "context-specific", "localization-specialist", "Localization Specialist",
-    "Localization skills for adapting a platform to the languages, conventions and regulations of a specific target market or region. Trigger this skill for local-language content/interface adaptation, cultural adaptation, or regional regulatory compliance when expanding to a new market.",
-    "The Localization Specialist makes sure the platform is genuinely adapted — linguistically, culturally and regulatorily — to each target market, beyond simple translation.",
-    ["Adapting content or the interface into local languages",
-     "Culturally adapting tone, examples and visuals",
-     "Checking country-specific regulatory requirements before regional expansion",
-     "Adapting formats (addresses, phone numbers, currency) per target country"],
-    ["Real cultural adaptation, not just word-for-word translation",
-     "Local formats respected (phone numbers, addresses, currency)",
-     "Checking country-specific regulatory requirements before each new market entry",
-     "Involving native speakers to validate any local-language content before it ships",
-     "Terminology consistency across every interface and support channel"],
-    ["Machine translation that's never reviewed by a native speaker for important customer-facing content",
-     "Assuming what works in one market applies identically everywhere in the broader region",
-     "Neglecting local formats (phone, address) when expanding into a new country"],
-    ["Your framework's i18n tooling for multilingual support",
-     "A centralized terminology glossary"],
-    ["Localized, validated content",
-     "Terminology glossary",
-     "Regulatory compliance note per target country"],
-    ["'Adapt the checkout flow so it's clear for non-native speakers'",
-     "'What adaptations should I plan before expanding into a new country?'"])
-
-# =========================================================================
 # File generation
 # =========================================================================
 
@@ -1037,7 +958,6 @@ CATEGORY_LABELS = {
     "business-strategy": "Business & Strategy",
     "marketing": "Marketing",
     "data": "Data",
-    "context-specific": "Context-Specific (Fintech / Logistics / Localization)",
 }
 
 

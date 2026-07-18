@@ -13,7 +13,7 @@ mkdir -p "$DEST"
 
 CATEGORIES=("$@")
 if [ ${#CATEGORIES[@]} -eq 0 ]; then
-  CATEGORIES=(dev security design-product business-strategy marketing data context-specific)
+  CATEGORIES=(dev security design-product business-strategy marketing data)
 fi
 
 count=0

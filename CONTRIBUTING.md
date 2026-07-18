@@ -5,8 +5,8 @@ Thanks for wanting to grow this skills library!
 ## Adding a new profile
 
 1. Pick the right category under `skills/` (`dev`, `security`, `design-product`,
-   `business-strategy`, `marketing`, `data`, `context-specific`) — or propose a new one
-   if none fits (open an issue first if you're unsure).
+   `business-strategy`, `marketing`, `data`) — or propose a new one if none fits (open an
+   issue first if you're unsure).
 2. Open `generate.py` and add a new `add(...)` call for your profile, following the
    pattern of the existing entries. This is the single source of truth for every
    `SKILL.md` in the repo — please don't hand-write a `SKILL.md` directly, since it will
@@ -42,9 +42,9 @@ Thanks for wanting to grow this skills library!
 - Every list item should add new information, not reword another item.
 - Prefer technology-agnostic guidance (name a category with examples, e.g. "relational
   database (PostgreSQL, MySQL...)") over hard-pinning one specific stack, so a skill
-  stays useful to contributors on a different stack. The `context-specific/` category is
-  the place for genuinely specialized, less-generic content (payments, logistics,
-  localization).
+  stays useful to contributors on a different stack. Avoid examples tied to one narrow
+  vertical or business model — favor examples that read naturally across different kinds
+  of products.
 
 ## Pull requests
 
