@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check-generated-skills:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Regenerate skills from generate.py
+        run: python3 generate.py
+
+      - name: Fail if generated output differs from committed skills/
+        run: |
+          if ! git diff --exit-code -- skills/; then
+            echo ""
+            echo "skills/ is out of sync with generate.py."
+            echo "Run 'python3 generate.py' locally and commit the result."
+            exit 1
+          fi
+
+      - name: Check every skill folder has exactly one SKILL.md
+        run: |
+          missing=0
+          for dir in skills/*/*/; do
+            if [ ! -f "${dir}SKILL.md" ]; then
+              echo "Missing SKILL.md in $dir"
+              missing=1
+            fi
+          done
+          exit $missing
