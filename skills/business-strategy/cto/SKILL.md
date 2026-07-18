@@ -11,7 +11,7 @@ The CTO turns business strategy into technology priorities, structures and grows
 
 - Defining overall technology strategy (build vs. buy, stack, hiring)
 - Structuring the engineering team (roles, process, methodology)
-- Balancing delivery speed against quality/technical debt
+- Balancing shipping speed against quality/technical debt
 - Technical communication with investors or partners
 
 ## Skills, responsibilities and best practices

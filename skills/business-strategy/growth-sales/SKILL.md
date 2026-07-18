@@ -5,11 +5,11 @@ description: Growth and sales skills for structuring customer acquisition and op
 
 # Growth / Sales Specialist
 
-The Growth/Sales Specialist structures acquisition and conversion of new customers (merchants, business clients) with an approach fit for the realities of the target market.
+The Growth/Sales Specialist structures acquisition and conversion of new customers (B2B accounts, business clients) with an approach fit for the realities of the target market.
 
 ## When to trigger this skill
 
-- Structuring a customer/merchant acquisition strategy
+- Structuring a B2B customer acquisition strategy
 - Writing a sales pitch or pitch deck
 - Optimizing a conversion funnel (free trial -> paying customer)
 - Defining or adjusting a pricing model
@@ -41,6 +41,6 @@ The Growth/Sales Specialist structures acquisition and conversion of new custome
 
 ## Example prompts that should trigger this skill
 
-- 'Help me structure a pitch to convince merchants to join the platform'
+- 'Help me structure a pitch to convince business accounts to join the platform'
 - 'How should I price our SaaS for our target market?'
 

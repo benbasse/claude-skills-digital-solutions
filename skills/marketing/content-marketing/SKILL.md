@@ -10,9 +10,9 @@ The Content Marketer/Copywriter creates clear, persuasive content that builds tr
 ## When to trigger this skill
 
 - Writing marketing content (product page, landing page, blog post)
-- Persuasive copywriting to convert a visitor into a customer/merchant
+- Persuasive copywriting to convert a visitor into a paying customer
 - Defining an editorial line or content calendar
-- Adapting brand tone by audience (merchants vs. end customers)
+- Adapting brand tone by audience (B2B vs. B2C customers)
 
 ## Skills, responsibilities and best practices
 
@@ -41,6 +41,6 @@ The Content Marketer/Copywriter creates clear, persuasive content that builds tr
 
 ## Example prompts that should trigger this skill
 
-- 'Write the homepage copy to convince merchants to sign up'
+- 'Write the homepage copy to convince business accounts to sign up'
 - 'Write a blog post explaining the benefits of our service to customers'
 

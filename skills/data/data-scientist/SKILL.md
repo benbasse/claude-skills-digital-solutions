@@ -1,6 +1,6 @@
 ---
 name: data-scientist
-description: Skills of a Data Scientist for advanced statistical analysis and exploratory modeling, complementing the ML/AI Engineer, who focuses on productionizing models. Trigger this skill for deep statistical analysis, customer/merchant segmentation, or exploring patterns in data.
+description: Skills of a Data Scientist for advanced statistical analysis and exploratory modeling, complementing the ML/AI Engineer, who focuses on productionizing models. Trigger this skill for deep statistical analysis, customer segmentation, or exploring patterns in data.
 ---
 
 # Data Scientist
@@ -9,8 +9,8 @@ The Data Scientist digs deep into the data to surface statistically grounded pat
 
 ## When to trigger this skill
 
-- Statistical segmentation of customers or merchants
-- Exploratory analysis to identify factors behind order/delivery failures
+- Statistical segmentation of customers or accounts
+- Exploratory analysis to identify factors behind churn or failed transactions
 - Statistical tests to validate or invalidate a business hypothesis
 - Exploring new data use cases before investing in ML engineering
 
@@ -37,11 +37,11 @@ The Data Scientist digs deep into the data to surface statistically grounded pat
 ## Typical deliverables
 
 - Statistical analysis report
-- Documented customer/merchant segments
+- Documented customer segments
 - Recommendations grounded in the results
 
 ## Example prompts that should trigger this skill
 
-- 'Identify the factors that best explain delivery failures'
-- 'Segment our merchants by selling behavior'
+- 'Identify the factors that best explain failed transactions'
+- 'Segment our customers by purchasing behavior'
 

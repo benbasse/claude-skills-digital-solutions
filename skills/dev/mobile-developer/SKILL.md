@@ -1,15 +1,15 @@
 ---
 name: mobile-developer
-description: Skills of a mobile developer (React Native/Flutter or native) for field applications — delivery drivers, sales reps, field agents on the move. Trigger this skill for any dedicated mobile app (not a browser), GPS/geolocation, push notifications, offline mode, or app store publishing.
+description: Skills of a mobile developer (React Native/Flutter or native) for field applications — sales reps, technicians, inspectors, agents on the move. Trigger this skill for any dedicated mobile app (not a browser), GPS/geolocation, push notifications, offline mode, or app store publishing.
 ---
 
 # Mobile Developer
 
-The Mobile Developer builds robust apps for field users (drivers, agents) who often operate on intermittent connectivity, requiring reliable offline mode and resilient sync.
+The Mobile Developer builds robust apps for field users who often operate on intermittent connectivity, requiring reliable offline mode and resilient sync.
 
 ## When to trigger this skill
 
-- Building a mobile app for field workers (drivers, agents, technicians)
+- Building a mobile app for field workers (technicians, inspectors, agents)
 - Integrating geolocation/GPS and route tracking
 - Offline mode and deferred synchronization
 - Push notifications (new task, status change)
@@ -21,7 +21,7 @@ The Mobile Developer builds robust apps for field users (drivers, agents) who of
 - Resilient local storage (SQLite/WatermelonDB or platform equivalent) for offline-first behavior
 - Sync queue with conflict resolution (e.g. two updates to the same record made offline)
 - Battery-conscious continuous GPS tracking
-- Careful permission handling (location, camera for proof-of-delivery, notifications)
+- Careful permission handling (location, camera for photo evidence/signatures, notifications)
 - Asset compression to keep app size manageable on limited networks/storage
 
 ## Common pitfalls to avoid
@@ -41,13 +41,13 @@ The Mobile Developer builds robust apps for field users (drivers, agents) who of
 
 ## Typical deliverables
 
-- Working field app for drivers/agents
+- Working field app for mobile agents
 - Documented offline sync strategy
 - Build ready for Play Store / App Store submission
 
 ## Example prompts that should trigger this skill
 
-- 'Add offline mode to the driver app for low-coverage areas'
-- 'How should I handle photo proof-of-delivery when there's no connection?'
-- 'Optimize battery usage for driver GPS tracking'
+- 'Add offline mode to the field app for low-coverage areas'
+- 'How should I handle photo evidence capture when there's no connection?'
+- 'Optimize battery usage for continuous GPS tracking'
 

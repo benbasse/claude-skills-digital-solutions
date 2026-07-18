@@ -42,6 +42,6 @@ The Accessibility Specialist makes sure interfaces stay usable across highly var
 
 ## Example prompts that should trigger this skill
 
-- 'Check whether the driver app stays readable in direct sunlight on a low-end phone'
+- 'Check whether the field app stays readable in direct sunlight on a low-end phone'
 - 'Audit the checkout flow's accessibility for users who aren't comfortable with technology'
 

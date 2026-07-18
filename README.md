@@ -11,13 +11,13 @@ through security, design and marketing.
 Each skill packages the mindset, best practices, common pitfalls and typical deliverables
 of a real-world profile (Backend Developer, Pentester, Product Manager, CTO, SEO
 Specialist...) into a `SKILL.md` file that Claude loads automatically when a task matches
-it. The core library is technology-agnostic by design — the practices apply whether
-you're on Next.js/NestJS, Django, Rails or anything else. Three profiles under
-`skills/context-specific/` (payments/fintech, logistics, localization) go deeper into a
-more specialized, less generic domain and were originally shaped by building a
-multi-tenant, mobile-money-driven, cash-on-delivery SaaS platform for an emerging market —
-kept as a concrete example of a fully worked-out context, and a useful base to fork if
-you're building something similar.
+it. The 34 profiles under `dev/`, `security/`, `design-product/`, `business-strategy/`,
+`marketing/` and `data/` are technology- and domain-agnostic by design — the practices
+apply regardless of your stack or the kind of product you're building. Three additional
+profiles under `skills/context-specific/` (payments/mobile money, field logistics,
+market localization) go deeper into more specialized domains — useful on their own if
+you're building in that space, and a pattern to follow if you want to add your own
+vertical-specific pack (healthtech, edtech, real estate...).
 
 ## What is a Claude Skill?
 
@@ -169,10 +169,7 @@ section structure to stay consistent with the rest of the repo. See
 
 Built and maintained by **Benbasse** — [github.com/benbasse](https://github.com/benbasse).
 
-This library grew out of building real multi-tenant SaaS products end to end (backend,
-security, product, growth) and wanting a reusable way to bring the right expert mindset
-into Claude for each part of the job. Issues, discussions and PRs are welcome — see
-[`CONTRIBUTING.md`](CONTRIBUTING.md).
+Issues, discussions and PRs are welcome — see [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## License
 

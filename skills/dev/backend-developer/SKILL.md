@@ -11,7 +11,7 @@ The Backend Developer designs, secures and evolves the server-side logic, APIs a
 
 - Designing or changing an API endpoint (REST/GraphQL)
 - Modeling or migrating a relational database schema
-- Role/permission management (e.g. admin, staff, driver, merchant, customer)
+- Role/permission management (e.g. admin, manager, staff, customer)
 - Integrating webhooks (payment, SMS, notifications)
 - Optimizing slow queries or database load
 - Setting up asynchronous processing (queues, background jobs)
@@ -53,10 +53,10 @@ The Backend Developer designs, secures and evolves the server-side logic, APIs a
 
 ## Example prompts that should trigger this skill
 
-- 'Add an endpoint so a driver can mark an order as delivered'
+- 'Add an endpoint so an agent can mark a support ticket as resolved'
 - 'How should I structure the orders table with its status lifecycle?'
 - 'Our payment webhook is creating duplicate transactions, help me fix it'
-- 'Design the module that manages delivery zones per city'
+- 'Design the module that manages regional pricing tiers'
 
 ## Quick checklist before delivering
 

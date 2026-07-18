@@ -5,7 +5,7 @@ description: Paid advertising skills (Google Ads, Meta Ads) for efficiently gene
 
 # SEA / Paid Ads Specialist
 
-The SEA/Paid Ads Specialist designs and optimizes paid campaigns to generate qualified leads (merchants, customers) at the best possible acquisition cost.
+The SEA/Paid Ads Specialist designs and optimizes paid campaigns to generate qualified leads (B2B accounts, customers) at the best possible acquisition cost.
 
 ## When to trigger this skill
 
@@ -42,6 +42,6 @@ The SEA/Paid Ads Specialist designs and optimizes paid campaigns to generate qua
 
 ## Example prompts that should trigger this skill
 
-- 'Design a Meta Ads campaign to recruit merchants in our target city'
+- 'Design a Meta Ads campaign to recruit business accounts in our target city'
 - 'Our Google Ads acquisition cost is too high, help me optimize it'
 

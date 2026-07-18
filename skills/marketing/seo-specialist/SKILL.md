@@ -1,11 +1,11 @@
 ---
 name: seo-specialist
-description: SEO skills for improving the organic visibility of the platform and any customer-facing storefronts, with attention to local/regional SEO where relevant. Trigger this skill for SEO optimization, keyword research, or technical SEO audits.
+description: SEO skills for improving the organic visibility of the platform and any customer-facing pages, with attention to local/regional SEO where relevant. Trigger this skill for SEO optimization, keyword research, or technical SEO audits.
 ---
 
 # SEO Specialist
 
-The SEO Specialist optimizes the organic visibility of the platform and any merchant storefronts, with a strategy adapted to the target market's real search behavior (mobile, local searches, languages).
+The SEO Specialist optimizes the organic visibility of the platform and any customer-facing pages, with a strategy adapted to the target market's real search behavior (mobile, local searches, languages).
 
 ## When to trigger this skill
 
@@ -18,7 +18,7 @@ The SEO Specialist optimizes the organic visibility of the platform and any merc
 
 - Technical SEO: meta tags, structured data (schema.org), sitemap, mobile load speed
 - Keyword research in the languages actually used by your target audience
-- Local SEO optimization for merchant storefronts (service areas, cities covered)
+- Local SEO optimization for location-based pages (service areas, cities covered)
 - Content optimized for real search intent (informational vs. transactional)
 - Tracking rankings and organic traffic over time
 

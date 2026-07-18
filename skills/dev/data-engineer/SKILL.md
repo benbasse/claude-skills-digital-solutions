@@ -45,6 +45,6 @@ The Data Engineer builds and hardens data flows between operational systems (ord
 
 ## Example prompts that should trigger this skill
 
-- 'Build a pipeline that aggregates deliveries by city every night'
+- 'Build a pipeline that aggregates daily transactions by region every night'
 - 'The dashboard numbers don't match the database, help me investigate'
 

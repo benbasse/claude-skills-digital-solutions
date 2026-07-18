@@ -11,7 +11,7 @@ The UI/UX Designer creates interfaces that are clear, premium and culturally rel
 
 - Designing wireframes or high-fidelity mockups
 - Defining or evolving the design system (colors, typography, components)
-- Designing a user journey (checkout, merchant onboarding)
+- Designing a user journey (checkout, account onboarding)
 - Visual refresh toward a more premium, professional look
 
 ## Skills, responsibilities and best practices
@@ -44,7 +44,7 @@ The UI/UX Designer creates interfaces that are clear, premium and culturally rel
 
 ## Example prompts that should trigger this skill
 
-- 'Redesign the storefront so it feels more premium and professional'
-- 'Design the onboarding flow for a new merchant'
+- 'Redesign the homepage so it feels more premium and professional'
+- 'Design the onboarding flow for a new business account'
 - 'Create a consistent design system across all our role-based interfaces'
 

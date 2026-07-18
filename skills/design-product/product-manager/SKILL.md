@@ -43,6 +43,6 @@ The Product Manager turns business vision into a concrete roadmap, prioritizes b
 
 ## Example prompts that should trigger this skill
 
-- 'Help me prioritize between improving the admin dashboard and the driver module'
+- 'Help me prioritize between improving the admin dashboard and the mobile app'
 - 'Write the user stories for the product return feature'
 

@@ -53,7 +53,7 @@ The Frontend Developer turns functional requirements and mockups into performant
 
 ## Example prompts that should trigger this skill
 
-- 'Build the driver dashboard with today's list of deliveries'
+- 'Build the agent dashboard with today's list of assigned tasks'
 - 'The order form needs to work well on small screens, improve it'
 - 'The storefront loads slowly on mobile, optimize it'
 - 'Add a status filter to the admin order list'

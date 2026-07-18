@@ -1,11 +1,11 @@
 ---
 name: social-media-manager
-description: Social media and community management skills for building awareness and trust with merchants and customers on the platforms popular in your market. Trigger this skill for content calendars, social media strategy, or online community management.
+description: Social media and community management skills for building awareness and trust with customers and partners on the platforms popular in your market. Trigger this skill for content calendars, social media strategy, or online community management.
 ---
 
 # Social Media / Community Manager
 
-The Social Media/Community Manager builds a trustworthy presence on the platforms popular with the target audience, engages the merchant and customer community, and manages online reputation.
+The Social Media/Community Manager builds a trustworthy presence on the platforms popular with the target audience, engages the customer community, and manages online reputation.
 
 ## When to trigger this skill
 
@@ -43,5 +43,5 @@ The Social Media/Community Manager builds a trustworthy presence on the platform
 ## Example prompts that should trigger this skill
 
 - 'Help me plan this month's social content to promote the platform'
-- 'How should I respond to customers unhappy about a delivery delay on Facebook?'
+- 'How should I respond to customers unhappy about a service delay on Facebook?'
 

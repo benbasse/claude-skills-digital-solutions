@@ -26,7 +26,7 @@ The QA/Test Engineer defines the test strategy and makes sure no critical featur
 
 - Testing only the happy path, ignoring error cases (payment declined, out of stock)
 - Flaky tests that depend on execution order or shared, non-isolated data
-- No tests on role-based permissions (a driver shouldn't reach the admin panel)
+- No tests on role-based permissions (a standard user shouldn't reach the admin panel)
 - Validating in a test environment that differs meaningfully from production
 
 ## Reference stack and tools

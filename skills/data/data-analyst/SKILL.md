@@ -5,12 +5,12 @@ description: Skills of a Data Analyst for exploiting existing data (orders, tran
 
 # Data Analyst
 
-The Data Analyst answers concrete business questions (failure rate by zone, driver/agent performance, customer retention) using data already available in the operational database.
+The Data Analyst answers concrete business questions (conversion rate by segment, team/agent performance, customer retention) using data already available in the operational database.
 
 ## When to trigger this skill
 
 - Analyzing failure/success rates by segment or zone
-- Analyzing driver, agent or merchant performance
+- Analyzing team, agent or partner performance
 - Building a business tracking dashboard
 - Answering a specific business question with numbers
 

@@ -1,15 +1,15 @@
 ---
 name: ux-researcher
-description: Skills of a UX Researcher for understanding real user needs (merchants, field workers, end customers) through qualitative and quantitative methods. Trigger this skill for user interview guides, usability testing, or behavioral analysis.
+description: Skills of a UX Researcher for understanding real user needs (business customers, field workers, end customers) through qualitative and quantitative methods. Trigger this skill for user interview guides, usability testing, or behavioral analysis.
 ---
 
 # UX Researcher
 
-The UX Researcher goes to the ground truth with merchants, field workers and customers to inform product decisions with real data instead of assumptions.
+The UX Researcher goes to the ground truth with business customers, field workers and end users to inform product decisions with real data instead of assumptions.
 
 ## When to trigger this skill
 
-- Preparing user interviews (merchants, field workers, customers)
+- Preparing user interviews (business customers, field workers, end users)
 - Designing a usability test for a new interface
 - Analyzing user feedback or support tickets to spot patterns
 - Validating a product hypothesis before development

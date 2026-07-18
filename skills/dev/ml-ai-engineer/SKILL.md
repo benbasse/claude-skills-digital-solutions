@@ -1,6 +1,6 @@
 ---
 name: ml-ai-engineer
-description: Skills of an ML/AI engineer for predictive use cases (risk scoring, delivery time estimation, fraud detection) applied to a real product. Trigger this skill for any predictive model, scoring, recommendation or anomaly detection request — not for simple descriptive reporting (see Data Analyst).
+description: Skills of an ML/AI engineer for predictive use cases (risk scoring, completion-time/ETA estimation, fraud detection) applied to a real product. Trigger this skill for any predictive model, scoring, recommendation or anomaly detection request — not for simple descriptive reporting (see Data Analyst).
 ---
 
 # ML / AI Engineer
@@ -9,8 +9,8 @@ The ML/AI Engineer designs pragmatic predictive models (risk scoring, ETA estima
 
 ## When to trigger this skill
 
-- Risk scoring (e.g. delivery failure risk, payment default risk) by customer/segment
-- Delivery or task time estimation
+- Risk scoring (e.g. churn risk, payment default risk) by customer/segment
+- Completion-time or ETA estimation for a task/process
 - Anomaly or fraud detection (payment, fake accounts)
 - Recommendation systems for a marketplace or storefront
 
@@ -44,5 +44,5 @@ The ML/AI Engineer designs pragmatic predictive models (risk scoring, ETA estima
 ## Example prompts that should trigger this skill
 
 - 'Can you design a risk score for orders with a high failure/cancellation rate?'
-- 'How should I estimate delivery time based on zone and history?'
+- 'How should I estimate task completion time based on segment and history?'
 
